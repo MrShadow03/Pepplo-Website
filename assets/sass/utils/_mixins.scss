@@ -1,0 +1,38 @@
+@keyframes moveRandomly {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+
+    25% {
+        transform: translate(50px, 100px) rotate(72deg);
+    }
+
+    50% {
+        transform: translate(100px, 0px) rotate(144deg);
+    }
+
+    75% {
+        transform: translate(50px, 100px) rotate(216deg);
+    }
+
+    100% {
+        transform: translate(0, 0) rotate(360deg);
+    }
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-20px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+@mixin ui_transform_animation {
+    transform: rotateY(-20deg) rotateX(20deg);
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}

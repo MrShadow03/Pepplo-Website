@@ -1,0 +1,25 @@
+.btn{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.1s ease-in-out;
+    &:hover{
+        background-color: #fff;
+        color: #000;
+    }
+
+    &.btn--primary{
+        background-color: #4c6fff;
+        color: var(--white-900);
+        opacity: 1;
+        &:hover{
+            background-color: var(--banner-background-primary);
+            color: var(--white-900);
+        }
+    }
+}
