@@ -1,0 +1,5 @@
+<svg id="circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+<style><![CDATA[
+#circle-s-path1_tr {animation: circle-s-path1_tr__tr 3000ms linear infinite normal forwards}@keyframes circle-s-path1_tr__tr { 0% {transform: translate(150px,128.118035px) rotate(0deg);animation-timing-function: cubic-bezier(0.42,0,0.58,1)} 100% {transform: translate(150px,128.118035px) rotate(360deg)}}
+]]></style>
+<g id="circle-s-path1_tr" transform="translate(150,128.118035) rotate(0)"><path id="circle-s-path1" d="M24.55471,160.17812c0-39.77012,32.24005-72.01018,72.01018-72.01018v30.78902c-22.76581,0-41.22115,18.45534-41.22115,41.22115s18.45534,41.22115,41.22115,41.22115v30.78904c-39.77012,0-72.01018-32.24005-72.01018-72.01018Z" transform="scale(0.933737,0.933738) translate(-60.5598,-160.178119)" fill="#ffc0eb" stroke-width="0"/></g></svg>

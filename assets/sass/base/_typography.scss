@@ -1,6 +1,38 @@
-.menu_link--text{
-    font-size: 1.4rem;
+.menu_link_text{
+    font-size: 1.6rem;
+    font-family: 'Exo 2';
     font-weight: 400;
     color: var(--white-900);
     transition: all 0.1s ease-in-out;
+}
+
+h1{
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--text-heading-color);
+    font-family: 'DM Sans', serif;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.text_gradient{
+    background-image: var(--gradient-3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ff_hind_siliguri{
+    font-family: 'Hind Siliguri', sans-serif !important;
+}
+
+.ff_ador{
+    font-family: 'Li Ador Noirrit', sans-serif !important;
+}
+
+.ff_alinur{
+    font-family: 'Li Alinur Showpnocari', sans-serif !important;
+}
+
+.ff_rubik{
+    font-family: 'Rubik', sans-serif !important;
 }
