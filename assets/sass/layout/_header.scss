@@ -232,7 +232,7 @@ section.header {
     .shapes_wrapper {
         width: 100%;
 
-        .border {
+        .section_border {
             position: absolute;
             left: 0;
             bottom: -8rem;
@@ -376,7 +376,7 @@ section.header {
     }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1280px) {
     section.header {
         .navbar{
             .container{
